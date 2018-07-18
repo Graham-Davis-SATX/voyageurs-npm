@@ -8,3 +8,7 @@ let sayHello = name => console.log(`Hello ${name}`);
 
 sayHello('Graham');
 sayHello('Tori');
+
+const aNiceMessage = require('./say-hello.js');
+
+console.log(aNiceMessage);
